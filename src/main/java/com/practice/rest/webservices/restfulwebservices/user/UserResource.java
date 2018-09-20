@@ -24,6 +24,7 @@ public class UserResource {
 	// retrieveAllUsers
 	
 	@GetMapping("/users")
+	public List<User> retrieveAllUser() {
 		return userDaoService.findAll();
 	}
 	
