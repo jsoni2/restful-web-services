@@ -17,6 +17,12 @@ public class User {
 	private String name;
 	
 	private Date birthDate;
+	
+	/**
+	 * 
+	 */
+	protected User() {
+	}
 
 	/**
 	 * @param id
