@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.practice.rest.webservices.restfulwebservices;
+package com.practice.rest.webservices.restfulwebservices.helloworld;
 
 /**
  * @author janak.soni
