@@ -3,18 +3,18 @@
  */
 package com.practice.rest.webservices.restfulwebservices.filtering;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonFilter;
 
 /**
  * @author janak.soni
  *
  */
+
+@JsonFilter("SomeBeanFilter")
 public class SomeBean {
 	
 	private String field1;
 	private String field2;
-	
-	@JsonIgnore
 	private String field3;
 	/**
 	 * @param field1
